@@ -19,6 +19,8 @@ install:	install-recursive
 
 endif
 
-EXTRA_DIST = ganglia-gmond-modules.spec
+#EXTRA_DIST = ganglia-gmond-modules.spec
+
+EXTRA_DIST = README.OpenCSW prepare_source_tree.sh do-configure.csw
 
 

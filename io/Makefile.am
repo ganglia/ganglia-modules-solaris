@@ -11,7 +11,10 @@ modio_la_SOURCES = mod_io.c
 modio_la_LDFLAGS = -module -avoid-version
 #modio_la_LIBADD = $(top_builddir)/libmetrics/libmetrics.la
 
-EXTRA_DIST = ../conf.d/io.conf
+EXTRA_DIST = ../conf.d/mod_io.conf
 endif
 
 INCLUDES = @APR_INCLUDES@
+
+pkglibdir = $(libdir)/ganglia
+

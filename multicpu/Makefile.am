@@ -11,7 +11,10 @@ modmulticpu_la_SOURCES = mod_multicpu.c
 modmulticpu_la_LDFLAGS = -module -avoid-version
 #modmulticpu_la_LIBADD = $(top_builddir)/libmetrics/libmetrics.la
 
-EXTRA_DIST = ../conf.d/multicpu.conf
+EXTRA_DIST = ../conf.d/mod_multicpu.conf
 endif
 
 INCLUDES = @APR_INCLUDES@
+
+pkglibdir = $(libdir)/ganglia
+

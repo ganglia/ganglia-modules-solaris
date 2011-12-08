@@ -11,7 +11,7 @@ pkglib_LTLIBRARIES    = modexample.la
 modexample_la_SOURCES = mod_example.c 
 modexample_la_LDFLAGS = -module -avoid-version
 
-EXTRA_DIST = ../conf.d/example.conf
+EXTRA_DIST = ../conf.d/mod_example.conf
 
 endif
 
