@@ -1,5 +1,5 @@
 
-AC_INIT(ganglia-gmond-modules-gnu,1.0)
+AC_INIT(ganglia-modules-solaris,1.0)
 AC_CONFIG_SRCDIR(example/mod_example.c)
 AM_INIT_AUTOMAKE
 
