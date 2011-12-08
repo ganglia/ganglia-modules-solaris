@@ -1,0 +1,13 @@
+
+
+To get all the tools needed for building:
+
+   pkgutil -i gmake ginstall gmake automake autoconf libconfuse_dev \
+             libapr_dev rsync gtar git autoconf m4 aclocal libtool gsed
+
+To prepare source tree:
+
+   M4=/opt/csw/bin/gm4 MAKE=/opt/csw/bin/gmake autoreconf -i
+
+
+

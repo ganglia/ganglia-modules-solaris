@@ -1,0 +1,14 @@
+#!/bin/bash
+
+export PATH=/usr/ccs/bin:$PATH
+
+# CC=/opt/SUNWspro/bin/cc
+# CFLAGS='-xO3 -I/opt/csw/include'
+
+PATH=/usr/ccs/bin:$PATH \
+CC=/usr/bin/cc \
+MAKE=/opt/csw/bin/gmake \
+CFLAGS='-g -I/opt/csw/include' \
+LDFLAGS='-L/opt/csw/lib' \
+./configure --prefix=/opt/csw --exec_prefix=/opt/csw --bindir=/opt/csw/bin --sbindir=/opt/csw/sbin --libexecdir=/opt/csw/libexec --datadir=/opt/csw/share --sysconfdir=/etc/opt/csw/ganglia --sharedstatedir=/opt/csw/share --localstatedir=/var/opt/csw --libdir=/opt/csw/lib --infodir=/opt/csw/share/info --includedir=/opt/csw/include --mandir=/opt/csw/share/man
+
