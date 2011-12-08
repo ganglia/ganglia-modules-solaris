@@ -455,8 +455,6 @@ int mcpu_determine_cpu_percentages() {
 		cd->metriclist.cpu_wio.f = (float) cd->cpu_states[CPUSTATE_IOWAIT] / 10;
 
 		time(&cd->last_refresh);
-
-		cd++;
 	}
 
 	return (0);
