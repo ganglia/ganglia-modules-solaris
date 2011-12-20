@@ -22,5 +22,6 @@ endif
 #EXTRA_DIST = ganglia-gmond-modules.spec
 
 EXTRA_DIST = README.OpenCSW prepare_source_tree.sh do-configure.csw
+EXTRA_DIST += COPYING gpl-3.0.txt
 
 
